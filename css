@@ -1,0 +1,60 @@
+form{
+    max-width: 450px;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.096);
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 2px 7px 35px rgb(18, 128, 218);
+    
+}
+
+label{
+    font-family: serif;
+    display: black;
+    margin-top: 15px;
+    font-weight: bold;
+   
+}
+
+input, textarea{
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid blue;
+    border-radius: 20px;
+    box-sizing: border-box;
+    border: 2px solid blue;
+    background-color: rgba(170, 170, 177, 0.089);
+}
+
+button{
+    padding: 10px;
+    margin-top: auto;
+    border: none;
+    border-radius: 30px;
+    width: 18%;
+    background-color: rgba(0, 4, 255, 0.301);
+    color: aliceblue; 
+}
+
+button:hover{
+    background-color: blue;
+    cursor: pointer;
+}
+
+body{
+    background-image: url(rooftop\ \(1\).jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.assunto select {
+    width: 90%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 2px solid blue;
+    border-radius: 20px;
+    font-size: 16px;
+    background-color: white;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  }
