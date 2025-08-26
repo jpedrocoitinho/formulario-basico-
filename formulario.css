@@ -14,7 +14,7 @@ body {
     border-radius: 12px;
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
     width: 320px;
-    text-align: left;
+    text-align: center;
   }
   
   h1 {
@@ -49,12 +49,9 @@ body {
     border: none;
     border-radius: 6px;
     cursor: pointer;
+    color: rgba(255, 255, 0, 0.863);
   }
   
-  button:hover {
-    background-color: #360d46; 
-  }
-
 .esqueci-senha{
     text-align: end;
     margin-top: 10px;
@@ -66,5 +63,68 @@ body {
     padding: 10px;
     background-color: #4a125c;
     border-radius: 20px;
-    color: rgba(255, 255, 0, 0.911);
+    color: rgba(255, 255, 0, 0.849);
+    text-align: center;
+    
 }
+.codigo{
+  transform: translateY(-2px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.gmail{
+    text-align: center;
+    margin-top: 15px;
+    background-color: #fff9c4;
+    color: #360d46;
+    border: 1px solid black;
+    margin-bottom: -8px;
+}
+.face{
+    text-align: center;
+    margin-top: 15px;
+    background-color: #fff9c4;
+    color: #360d46;
+    border: 1px solid black;
+}
+
+hr.linha-meio {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.esqueci-senha{
+    text-align: end;
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.cadastre-se{
+    text-align: center;
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+.gmail-1{
+  background-color: #fff9c4;
+}
+
+.h3{
+color: rgba(0, 0, 0, 0.822);
+}
+
+.fa-google{
+ margin-right: 10px;
+}
+.fa-facebook-f{
+  margin-right: 10px;
+ }
+
+ .gmail:hover {
+  background-color: #731680;
+  color: #ffffff;   
+  border: none;
+}
+ .face:hover {
+    background-color: #3b5998; 
+    color: white; 
+    border: none; }
