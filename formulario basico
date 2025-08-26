@@ -5,64 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projct</title>
     <link rel="stylesheet" href="style.css">
-    <script src="atividade.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
-<body  style="background-color: rgba(207, 221, 217, 0.705)">
-    <center>
-   
-
-   
-    <form action="/enviar" method="post">
+<body style="background-color: rgba(207, 221, 217, 0.705)">
+    
+    <form action="/enviar" method="post" class="formulario">
         <font face="verdana" color="white">
-            <h1> <b>Efetuar Login </b></h1>
+            <h1><b>Efetuar Login</b></h1>
         </font>
         <hr>
-        <center>
-        <h3>Escolha uma opção para entrar:</h3>
-            <div class="codigo">
-                Receber por codigo
-            </div>
-            <br>
-    </center>
-      <button class="gmail">
-        Entrar com <b>Google</b>
-      </button>
-      
-      <button class="face">
-        Entrar com <b>Facebook</b>
-      </button>
-      
-      <label for="email">Entrar com Facebook:</label><br>
-      <input type="email" id="email" name="email" required><br><br>
-  
-      <hr>
-      <center>
-        <h3>Entrar com email e senha:</h3>
-         </center>
-      <label for="nome"></label>
-      <input placeholder="Ex: exemplos@gmail.com" type="text" id="nome" name="nome" required>
-         
-      <label for="email"></label><br>
-      <input placeholder="Adicione sua senha" type="email" id="email" name="email" required><br><br>
-      
-    
-      <label for="assunto">Assunto:</label><br>
 
+        <h3 class="h3">Escolha uma opção para entrar:</h3>
+        <div class="codigo">
+            Receber por código
+        </div>
+          
+        <button class="gmail">
+          <i class="fab fa-google"></i> Entrar com <b>Google</b>
+       </button>
        
-      <div class="assunto"></div>
-      <select id="assunto" name="assunto">
-        <option value="duvida">Dúvida</option>
-        <option value="sugestao">Sugestão</option>
-        <option value="reclamacao">Reclamação</option>
-      </select><br><br>
-      <div class="esqueci-senha">
-        <p>Esqueci minha senha</p>
-      </div>
-      <hr>
-        <button type="submit" >Entrar </button>
+       <button class="face">
+          <i class="fab fa-facebook-f"></i> Entrar com <b>Facebook</b>
+       </button>
        
-    
+      
+        <hr class="linha-meio">
+
+        <h3 class="h3">Entrar com email e senha:</h3>
+        
+        <label for="nome"></label>
+        <input class="gmail-1" placeholder="Ex: exemplos@gmail.com" type="text" id="nome" name="nome" required>
+         
+        <label for="email"></label>
+        <input class="gmail-1" placeholder="Adicione sua senha" type="email" id="email" name="email" required>
+        <hr>
+        <p class="esqueci-senha">Esqueci minha senha</p>
+        <button type="submit">Entrar</button>
+        <p class="cadastre-se">Não tem uma conta? cadastre-se</p>
     </form>
-    </center>
+
 </body>
 </html>
